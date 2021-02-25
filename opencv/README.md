@@ -25,7 +25,7 @@ make # 开始编译
 make -j4 # 多核编译，适合4G以上版本pi            
 编译完成后           
 sudo make install
-此版本没有开启FFmpeg。如果需要请使用以下cmake命令，并预先编译安装好FFmpeg
+此版本没有开启FFmpeg。如果需要请使用以下cmake命令，并预先编译安装好FFmpeg         
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D INSTALL_C_EXAMPLES=ON \
