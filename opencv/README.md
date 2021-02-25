@@ -19,7 +19,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D PYTHON_INCLUDE_DIR=/usr/include/python3.7 \
 -D PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.7m.so \
 -D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \
-..
+..       
 输入以上命令开始检查，没有错误后输入     
 make # 开始编译          
 make -j4 # 多核编译，适合4G以上版本pi            
@@ -38,5 +38,5 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D PYTHON_INCLUDE_DIR=/usr/include/python3.7 \
 -D PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.7m.so \
 -D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \
-..
+..        
 经验证，以上命令无法通过编译，解决方案正在查找。
