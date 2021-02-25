@@ -20,10 +20,10 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.7m.so \
 -D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \
 ..
-输入以上命令开始检查，没有错误后输入
-make # 开始编译
-make -j4 # 多核编译，适合4G以上版本pi
-编译完成后
+输入以上命令开始检查，没有错误后输入     
+make # 开始编译          
+make -j4 # 多核编译，适合4G以上版本pi            
+编译完成后           
 sudo make install
 此版本没有开启FFmpeg。如果需要请使用以下cmake命令，并预先编译安装好FFmpeg
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
