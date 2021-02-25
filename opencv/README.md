@@ -7,7 +7,7 @@ sudo apt-get -y install libxvidcore-dev libx264-dev
 sudo apt-get -y install libgtk-3-dev            
 sudo apt-get -y install libcanberra-gtk*            
 sudo apt-get -y install libatlas-base-dev gfortran           
-开始编译
+开始编译         
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D INSTALL_C_EXAMPLES=ON \
