@@ -1,12 +1,12 @@
 下载好文件，进入文件目录
-编译前安装所需依赖
-sudo apt-get -y install build-essential cmake unzip pkg-config
-sudo apt-get -y install libjpeg-dev libpng-dev libtiff-dev
-sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get -y install libxvidcore-dev libx264-dev
-sudo apt-get -y install libgtk-3-dev
-sudo apt-get -y install libcanberra-gtk*
-sudo apt-get -y install libatlas-base-dev gfortran
+编译前安装所需依赖               
+sudo apt-get -y install build-essential cmake unzip pkg-config       
+sudo apt-get -y install libjpeg-dev libpng-dev libtiff-dev          
+sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev               
+sudo apt-get -y install libxvidcore-dev libx264-dev             
+sudo apt-get -y install libgtk-3-dev            
+sudo apt-get -y install libcanberra-gtk*            
+sudo apt-get -y install libatlas-base-dev gfortran           
 开始编译
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
