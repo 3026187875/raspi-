@@ -1,4 +1,5 @@
 下载好文件，进入文件目录
+clone的文件有缺损，把test和src文件夹粘贴到下   
 编译前安装所需依赖               
 sudo apt-get -y install build-essential cmake unzip pkg-config       
 sudo apt-get -y install libjpeg-dev libpng-dev libtiff-dev          
